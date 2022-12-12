@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #449b51;
+    color: white;
+    padding: 18px 0;
+}
+
+header h1 {
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header a {
+    text-decoration: none;
+    color: #9ddfa7;
+    font-weight: bolder;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+section h3 {
+    margin-bottom: 12px;
+    color: #449b51;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #449b51;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    padding: 20px 0;
+}
+
+#about h2,
+#contact h2 {
+    margin-bottom: 18px;
+    color: #1c5a25;
+    font-size: 28px;
+}
+
+#about p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+#about #store-img {
+    margin-right: 24px;
+}
+
+#about #leafs-img {
+    width: 267px;
+    float: right;
+    margin: 5px;
+}
+
+#about .container {
+    align-items: flex-start;
+}
+
+#contact {
+    padding: 20px 0;
+}
+
+#contact form input,
+#contact form textarea,
+#contact form button {
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 6px;
+    outline-color: #9ddfa7;
+    border-width: 1px;
+    border-color: #9ddfa7;
+    border-style: solid;
+    font-size: 16px;
+}
+
+#contact form button {
+    background-color: #449b51;
+    color: white;
+    padding: 14px;
+    border: none;
+    margin-bottom: 0;
+}
+
+#contact form button:hover {
+    cursor: pointer;
+    background-color: #1c5a25;
+}
+
+#contact form textarea {
+    resize: none;
+    height: 150px;
+}
+
+#contact .container {
+    display: block;
+}
+
+#contact .contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social img {
+    height: 24px;
+}
+
+.social ul li {
+    display: inline;
+    margin-right: 8px;
+}
