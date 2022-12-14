@@ -104,6 +104,11 @@ footer {
     font-size: 16px;
 }
 
+#contact form input:focus,
+#contact form textarea:focus {
+    outline: 1px solid #9ddfa7
+}
+
 #contact form button {
     background-color: #449b51;
     color: white;
